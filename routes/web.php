@@ -14,3 +14,8 @@ Route::get('categories/{category}/activate', [CategoryController::class, 'activa
 Route::get('categories/{category}/deactivate', [CategoryController::class, 'deactivate'])->name('categories.deactivate');
 
 
+//tailwind run 
+
+// npx tailwindcss -i ./public/assets/css/tailwind.css -o ./public/assets/css/tailwind.output.css --minify
+
+
